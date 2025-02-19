@@ -5,23 +5,20 @@
 ![image](https://github.com/user-attachments/assets/074da0a4-343f-4344-a0a2-88d67c23dae9)
 
 
-# CrowdDataset Dataset&Yolo Format
-Download the CrowdDataset from [https://www.crowdhuman.org/download.html]. I have provided the YOLO format labels in the `CrowdHumanHead/labels.zip` file. Simply unzip this file and place the contents in the `CrowdHumanHead/labels` directory.
-
 
 # Pre-trained YoloV8 Head Detection Model
 Please download the model weight from this [Google Drive URL](https://drive.google.com/file/d/1qlBmiEU4GBV13fxPhLZqjhjBbREvs8-m/view?usp=sharing). 
 
 
-# Model Inference 
+# 모델 라벨링 코드
 `
-python3 pred_yolo_v8.py
+python3 label.py
 `
 
 
-# Model Training 
+# annotaiton 화 하는 코드
 `
-python3 train_yolo_v8.py
+python3 anno.py
 `
 
 
