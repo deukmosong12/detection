@@ -1,5 +1,5 @@
 # Head-Detection-Yolov8
-This repo provides a YOLOv8 model, finely trained for detecting human heads in complex crowd scenes, with the CrowdHuman dataset serving as training data. To boost accessibility and compatibility, I've reconstructed the labels in the CrowdHuman dataset, removing useless annotations, refining its annotations to perfectly match the YOLO format. 
+욜로V8을 학습시켜 나오는 weight들로 탐지 후 바운딩 박스 값들을 저장하는 코드
 
 # Detection Example
 ![image](https://github.com/user-attachments/assets/074da0a4-343f-4344-a0a2-88d67c23dae9)
